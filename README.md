@@ -107,5 +107,3 @@ pip install statsmodels
 This happens when a column has NaN mixed with strings. The dashboard code now filters NaN and converts values to strings for sorting.
 
 ---
-
-If you want the dashboard to load from the **warehouse_data fact/dim tables** (instead of directly from `amazon_delivery.csv`), tell me and I’ll switch the dashboard data source to the star schema output.
