@@ -1,0 +1,8 @@
+Weather_ID,Weather,Weather_Severity,Delivery_Impact
+1,Sunny,Good,Low
+2,Stormy,Severe,High
+3,Sandstorms,Severe,High
+4,Cloudy,Moderate,Medium
+5,Fog,Moderate,High
+6,Windy,Moderate,Medium
+7,,Good,Low

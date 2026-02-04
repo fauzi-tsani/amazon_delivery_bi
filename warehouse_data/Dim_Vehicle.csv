@@ -1,0 +1,17 @@
+Vehicle_ID,Vehicle,Vehicle_Category,Traffic,Traffic_Impact
+1,motorcycle ,Two Wheeler,High ,High
+2,scooter ,Two Wheeler,Jam ,High
+3,motorcycle ,Two Wheeler,Low ,Low
+4,motorcycle ,Two Wheeler,Medium ,Medium
+5,scooter ,Two Wheeler,High ,High
+6,motorcycle ,Two Wheeler,Jam ,High
+7,scooter ,Two Wheeler,Medium ,Medium
+8,van,Four Wheeler,Jam ,High
+9,van,Four Wheeler,Low ,Low
+10,van,Four Wheeler,Medium ,Medium
+11,scooter ,Two Wheeler,Low ,Low
+12,van,Four Wheeler,High ,High
+13,motorcycle ,Two Wheeler,NaN ,Low
+14,scooter ,Two Wheeler,NaN ,Low
+15,bicycle ,Other,NaN ,Low
+16,van,Four Wheeler,NaN ,Low

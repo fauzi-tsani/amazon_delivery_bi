@@ -1,0 +1,29 @@
+
+    ┌─────────────────────────────────────────────────────────────────────┐
+    │                        ERD LEGEND                                   │
+    ├─────────────────────────────────────────────────────────────────────┤
+    │  SYMBOL          │ DESCRIPTION                                     │
+    ├──────────────────┼─────────────────────────────────────────────────┤
+    │  [Red Box]       │ Fact Table (contains measurements/metrics)      │
+    │  [Green Box]     │ Dimension Table (descriptive attributes)        │
+    │  --> (Arrow)     │ Relationship (Foreign Key to Primary Key)       │
+    │  1:N             │ One-to-Many relationship cardinality              │
+    └─────────────────────────────────────────────────────────────────────┘
+    
+    ┌─────────────────────────────────────────────────────────────────────┐
+    │                     ENTITY DESCRIPTIONS                             │
+    ├─────────────────────────────────────────────────────────────────────┤
+    │ FACT TABLE: Fact_Deliveries                                         │
+    │   - Central fact table containing delivery metrics                   │
+    │   - Grain: One row per delivery/order                              │
+    │   - Measures: Delivery_Time, Distance_KM, Speed_KM_H, etc.         │
+    │                                                                      │
+    │ DIMENSIONS:                                                          │
+    │   1. Dim_Agent      - Delivery agent details and ratings            │
+    │   2. Dim_Time       - Date/time hierarchy (year, month, day, etc.)  │
+    │   3. Dim_Location   - Geographic locations and distance metrics     │
+    │   4. Dim_Weather    - Weather conditions and impact levels          │
+    │   5. Dim_Vehicle    - Vehicle types and traffic conditions          │
+    │   6. Dim_Category   - Product categories and types                  │
+    └─────────────────────────────────────────────────────────────────────┘
+    

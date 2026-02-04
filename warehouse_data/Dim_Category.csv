@@ -1,0 +1,17 @@
+Category_ID,Category,Product_Type,Fragility_Level
+1,Clothing,Fashion & Beauty,Low
+2,Electronics,Electronics,High
+3,Sports,Entertainment,Low
+4,Cosmetics,Fashion & Beauty,High
+5,Toys,Entertainment,High
+6,Snacks,Other,Medium
+7,Shoes,Fashion & Beauty,Low
+8,Apparel,Fashion & Beauty,Low
+9,Jewelry,Fashion & Beauty,High
+10,Outdoors,Outdoor,Low
+11,Grocery,Home & Living,Low
+12,Books,Entertainment,Low
+13,Kitchen,Home & Living,Medium
+14,Home,Other,Low
+15,Pet Supplies,Other,Low
+16,Skincare,Other,Low

@@ -1,0 +1,50 @@
+============================================================
+STAR SCHEMA SUMMARY
+============================================================
+
+CENTRAL FACT TABLE:
+----------------------------------------
+Table: Fact_Deliveries
+Grain: One row per delivery transaction
+Measures:
+  • Distance_KM
+  • Delivery_Time (min)
+  • Speed_KM_H
+  • Pickup_Delay_Min
+  • Performance_Category
+
+
+DIMENSION TABLES:
+----------------------------------------
+
+Dim_Agent:
+  Description: Agent attributes and ratings
+  Attributes: 4
+
+Dim_Time:
+  Description: Date and time hierarchy
+  Attributes: 10
+
+Dim_Location:
+  Description: Geographic locations
+  Attributes: 8
+
+Dim_Weather:
+  Description: Weather conditions
+  Attributes: 4
+
+Dim_Vehicle:
+  Description: Vehicle and traffic info
+  Attributes: 5
+
+Dim_Category:
+  Description: Product categories
+  Attributes: 4
+
+============================================================
+SCHEMA CHARACTERISTICS:
+============================================================
+Type: Star Schema (Denormalized)
+Dimensions: 6 (directly connected to fact)
+Relationships: All 1-to-Many (1:N)
+Optimization: Query performance focused
